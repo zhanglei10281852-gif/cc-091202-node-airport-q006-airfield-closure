@@ -1,0 +1,1 @@
+{"name":"airfield-closure-context","version":"0.1.0","private":true,"type":"module","description":"飞行区检查封闭领域资料服务","scripts":{"start":"node src/server.js","test":"node --test"},"engines":{"node":">=20"}}
