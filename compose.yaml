@@ -5,5 +5,11 @@ services:
       - "${APP_PORT:-3000}:3000"
     environment:
       PORT: 3000
+      DATA_FILE: /app/data/events.jsonl
+    volumes:
+      - app-data:/app/data
     restart: unless-stopped
+
+volumes:
+  app-data:
 
